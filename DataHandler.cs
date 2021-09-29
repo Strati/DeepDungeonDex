@@ -59,27 +59,27 @@ namespace DeepDungeonDex
                 { 7266, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Untelegraphed Sleep followed by AoE" } },
                 { 7267, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="AoE applies Bleed" } },
                 { 7268, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Gaze" } },
-                { 7269, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
+                { 7269, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="" } },
                 { 7270, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="AoE inflicts knockback" } },
                 { 7271, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Conal AoE inflicts Bleed\nCircle AoE inflicts knockback" } },
                 { 7272, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Unavoidable tankbuster-like \"Jaws\"" } },
                 { 7273, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Untelegraphed buster inflicts Bleed and knockback" } },
                 { 7274, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
-				// HoH floors 11-19
+				// HoH floors 11-19  
                 { 7275, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7276, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="" } },
                 { 7277, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7278, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7279, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Lite buster \"Scissor Run\" followed by AoE" } },
-                { 7280, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
+                { 7280, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="" } },
                 { 7281, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Gaze inflicts Seduce, followed by large AoE that inflicts Minimum" } },
                 { 7282, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7283, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7284, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="" } },
                 { 7285, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Buster and triple auto" } },
-                { 7286, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Roomwide ENRAGE" } },
+                { 7286, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Roomwide ENRAGE" } },
                 { 7287, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
-				// HoH floors 21-29
+				// HoH floors 21-29  
                 { 7288, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Gaze inflicts Blind" } },
                 { 7289, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Cures self and allies" } },
                 { 7290, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Casts AoEs with knockback unaggroed\nLine AoE inflicts Bleed" } },
@@ -87,13 +87,13 @@ namespace DeepDungeonDex
                 { 7292, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Untelegraphed conal AoE with knockback, buster" } },
                 { 7293, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="" } },
                 { 7294, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
-                { 7295, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Draw-in followed by cleave" } },
+                { 7295, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Draw-in followed by cleave" } },
                 { 7296, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Gaze" } },
-                { 7297, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Line AoE inflicts Bleed" } },
+                { 7297, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sound, IsStunnable=true, MobNotes="Line AoE inflicts Bleed" } },
                 { 7298, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Cross AoE inflicts Suppuration" } },
                 { 7299, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Large AoE inflicts Paralysis" } },
                 { 7300, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Circle AoE inflicts Suppuration" } }, 
-                //HoH floors 31-39
+                //HoH floors 31-39   
                 { 7301, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7302, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Casts AoEs unaggroed" } },
                 { 7303, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Double auto inflicts Bleed\nLow health ENRAGE" } },
@@ -106,8 +106,8 @@ namespace DeepDungeonDex
                 { 7310, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Extremely large AoE" } },
                 { 7311, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Line AoE inflicts Bleed\nLow health ENRAGE" } },
                 { 7312, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Frontal cleave without cast or telegraph" } },
-                { 7313, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Gaze inflicts Otter" } },
-				// HoH floors 41-49
+                { 7313, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Gaze inflicts Otter" } },
+				// HoH floors 41-49  
                 { 7314, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Casts AoEs unaggroed" } },
                 { 7315, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="" } },
                 { 7316, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
@@ -121,7 +121,7 @@ namespace DeepDungeonDex
                 { 7324, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Very wide line AoE" } },
                 { 7325, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7326, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sound, IsStunnable=true, MobNotes="Eventual ENRAGE" } },
-				//HoH floors 51-59
+				//HoH floors 51-59   
                 { 7327, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sound, IsStunnable=true, MobNotes="Autos inflict stacking vuln up" } },
                 { 7328, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sound, IsStunnable=true, MobNotes="Buster inflicts Bleed" } },
                 { 7329, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Buffs own damage" } },
@@ -135,7 +135,7 @@ namespace DeepDungeonDex
                 { 7337, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Conal gaze, very quick low health ENRAGE" } },
                 { 7338, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="" } },
                 { 7339, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="" } },
-				// HoH floors 61-69
+				// HoH floors 61-69  
                 { 7340, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Inflicts stacking Poison that lasts 30s" } },
                 { 7341, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Inflicts stacking vuln up" } },
                 { 7342, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
@@ -148,7 +148,7 @@ namespace DeepDungeonDex
                 { 7349, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Buffs own or ally's defense" } },
                 { 7350, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="AoE inflicts numerous debuffs at once" } },
                 { 7351, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
-				// HoH floors 71-79
+				// HoH floors 71-79  
                 { 7352, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 7353, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Casts large AoE unaggroed\nExtremely large circular AoE" } },
                 { 7354, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Untelegraphed knockback on rear" } },
@@ -162,7 +162,7 @@ namespace DeepDungeonDex
                 { 7362, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Extremely large conal AoE, gaze inflicts Fear" } },
                 { 7363, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="" } },
                 { 7364, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="Double auto and very large AoE" } },
-				// HoH floors 81-89
+				// HoH floors 81-89  
 				{ 7365, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Proximity, IsStunnable=false, MobNotes="Ram's Voice - get out\nDragon's Voice - get in\nTelegraphed cleaves" } },
                 { 7366, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Buffs own damage unaggroed\nLarge AoE unaggroed that inflicts vuln up and stacks" } },
                 { 7367, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Charges on aggro" } },
@@ -176,7 +176,7 @@ namespace DeepDungeonDex
                 { 7375, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Cone AoE, circle AoE, partywide damage" } },
                 { 7376, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Charges, buffs own damage, double autos, electricity Bleed" } },
                 { 7377, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Charges, buffs own damage, untelegraphed buster \"Ripper Claw\"" } },
-				// HoH floors 91-99
+				// HoH floors 91-99  
                 { 7378, new MobData { Threat=MobData.ThreatLevel.Vicious, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="WAR: Triple knockback with heavy damage\nBuffs own attack\nExtremely high damage cleave with knockback" } },
                 { 7379, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="MNK: Haste buff, short invuln" } },
                 { 7380, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="WHM: double autos\n\"Stone\" can be line of sighted" } },
@@ -210,7 +210,7 @@ namespace DeepDungeonDex
                 //PotD data
                 { 4975, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=null, MobNotes="" } },
                 { 4976, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=null, MobNotes="" } },
-                { 4977, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=null, MobNotes="" } },
+                { 4977, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sound, IsStunnable=null, MobNotes="" } },
                 { 4978, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=null, MobNotes="" } },
                 { 4979, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=true, MobNotes="" } },
                 { 4980, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sight, IsStunnable=null, MobNotes="" } },
@@ -468,7 +468,7 @@ namespace DeepDungeonDex
                 { 5473, new MobData { Threat=MobData.ThreatLevel.Dangerous, Aggro=MobData.AggroType.Sight, IsStunnable=false, MobNotes="Casts untelegraphed cone \"Level 5 Death\"" } },
                 { 5474, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=false, MobNotes="" } },
                 { 5475, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="Double auto" } },
-                { 5479, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="" } },
+                { 5479, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Sound, IsStunnable=true, MobNotes="" } },
                 { 5480, new MobData { Threat=MobData.ThreatLevel.Easy, Aggro=MobData.AggroType.Proximity, IsStunnable=true, MobNotes="" } },
                 { 2566, new MobData { Threat=MobData.ThreatLevel.Caution, Aggro=MobData.AggroType.Proximity, IsStunnable=false, MobNotes="High damage autos and instant kill AoE\n\"Infatuation\" can only be interrupted with interject" } },
 
