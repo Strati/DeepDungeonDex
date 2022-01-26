@@ -4,7 +4,6 @@ using Dalamud.Game.ClientState;
 using Dalamud.Plugin;
 using Dalamud.Game.ClientState.Conditions;
 using Dalamud.Game.ClientState.Objects;
-using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Game.Command;
 using Dalamud.Game;
 using Dalamud.IoC;
@@ -17,9 +16,8 @@ namespace DeepDungeonDex
     {
         public static Configuration Config;
 
-        private PluginUI ui;
-        private ConfigUI cui;
-        private GameObject previousTarget;
+        private PluginUI MainUI;
+        private ConfigUI ConfigUI;
 
         [PluginService] internal static DalamudPluginInterface PluginInterface { get; private set; } = null!;
         [PluginService] internal static ClientState ClientState { get; private set; } = null!;
@@ -27,8 +25,6 @@ namespace DeepDungeonDex
         [PluginService] internal static Condition Condition { get; private set; } = null!;
         [PluginService] internal static Framework Framework { get; private set; } = null!;
         [PluginService] internal static TargetManager Targets { get; private set; } = null!;
-
-        [PluginService] internal static DataManager DataManager { get; private set; } = null!;
 
         public string Name => "DeepDungeonDex";
 
@@ -39,48 +35,39 @@ namespace DeepDungeonDex
 
             DataRepo.Load();
 
-            this.ui = new PluginUI();
-            this.cui = new ConfigUI(Config.Opacity, Config.IsClickthrough, Config.HideRedVulns, Config.HideBasedOnJob, Config);
+            MainUI = new PluginUI();
+            ConfigUI = new ConfigUI(Config.Opacity, Config.IsClickthrough, Config.HideRedVulns, Config.HideBasedOnJob, Config);
             
-            PluginInterface.UiBuilder.Draw += this.ui.Draw;
-            PluginInterface.UiBuilder.Draw += this.cui.Draw;
+            PluginInterface.UiBuilder.Draw += MainUI.Draw;
+            PluginInterface.UiBuilder.Draw += ConfigUI.Draw;
+            PluginInterface.UiBuilder.OpenConfigUi += OpenConfig;
 
-            CommandManager.AddHandler("/pddd", new CommandInfo(OpenConfig)
+            CommandManager.AddHandler("/pddd", new CommandInfo((c,a) => OpenConfig())
             {
                 HelpMessage = "DeepDungeonDex config"
             });
             
-            Framework.Update += this.GetData;
+            Framework.Update += GetData;
         }
 
-        public void OpenConfig(string command, string args)
+        public void OpenConfig()
         {
-            cui.IsVisible = true;
+            ConfigUI.IsVisible = true;
         }
 
         public void GetData(Framework framework)
         {
             if (!Condition[ConditionFlag.InDeepDungeon])
             {
-                ui.IsVisible = false;
+                MainUI.IsVisible = false;
                 return;
             }
-            GameObject target = Targets.Target;
+            var target = Targets.Target;
 
-            TargetData t = new TargetData();
-            if (!t.IsValidTarget(target))
-            {
-                ui.IsVisible = false;
-                return;
-            }
-            else
-            { 
-                previousTarget = target;
-                ui.IsVisible = true;
-            }
+            TargetData.UpdateTargetData(target, out var valid);
+            MainUI.IsVisible = valid;
         }
-
-        #region IDisposable Support
+        
         protected virtual void Dispose(bool disposing)
         {
             if (!disposing) return;
@@ -89,10 +76,10 @@ namespace DeepDungeonDex
 
             PluginInterface.SavePluginConfig(Config);
 
-            PluginInterface.UiBuilder.Draw -= this.ui.Draw;
-            PluginInterface.UiBuilder.Draw -= this.cui.Draw;
+            PluginInterface.UiBuilder.Draw -= MainUI.Draw;
+            PluginInterface.UiBuilder.Draw -= ConfigUI.Draw;
 
-            Framework.Update -= this.GetData;
+            Framework.Update -= GetData;
         }
 
         public void Dispose()
@@ -100,7 +87,5 @@ namespace DeepDungeonDex
             Dispose(true);
             GC.SuppressFinalize(this);
         }
-
-        #endregion
     }
 }

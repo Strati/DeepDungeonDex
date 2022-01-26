@@ -1,4 +1,5 @@
-﻿using Dalamud.Game.ClientState.Objects.Types;
+﻿using System.Runtime.InteropServices.ComTypes;
+using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Game.Text.SeStringHandling;
 
 namespace DeepDungeonDex
@@ -7,18 +8,18 @@ namespace DeepDungeonDex
 	{
 		public static uint NameID { get; set; }
 		public static SeString Name { get; set; }
-		public bool IsValidTarget(GameObject target)
+
+		public static void UpdateTargetData(GameObject target, out bool isValid)
 		{
 			if (target is BattleNpc bnpc)
 			{
 				Name = bnpc.Name;
 				NameID = bnpc.NameId;
-				return true;
+
+                isValid = true;
 			}
 			else
-			{
-				return false;
-			}
+                isValid = false;
 		}
 	}
 }
