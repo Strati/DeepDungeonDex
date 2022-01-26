@@ -7,16 +7,16 @@ using Dalamud.Game.ClientState.Objects;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Game.Command;
 using Dalamud.Game;
-using Dalamud.Game.Gui;
-using Dalamud.Game.Network;
 using Dalamud.IoC;
 using DeepDungeonDex.Data;
+using DeepDungeonDex.UI;
 
 namespace DeepDungeonDex
 {
     public class Plugin : IDalamudPlugin
     {
-        private Configuration config;
+        public static Configuration Config;
+
         private PluginUI ui;
         private ConfigUI cui;
         private GameObject previousTarget;
@@ -28,16 +28,19 @@ namespace DeepDungeonDex
         [PluginService] internal static Framework Framework { get; private set; } = null!;
         [PluginService] internal static TargetManager Targets { get; private set; } = null!;
 
+        [PluginService] internal static DataManager DataManager { get; private set; } = null!;
+
         public string Name => "DeepDungeonDex";
 
         public Plugin()
         {
-            DataHandler.Load();
+            Config = (Configuration)PluginInterface.GetPluginConfig() ?? new Configuration();
+            Config.Initialize(PluginInterface);
 
-            this.config = (Configuration)PluginInterface.GetPluginConfig() ?? new Configuration();
-            this.config.Initialize(PluginInterface);
-            this.ui = new PluginUI(config, ClientState);
-            this.cui = new ConfigUI(config.Opacity, config.IsClickthrough, config.HideRedVulns, config.HideBasedOnJob, config);
+            DataRepo.Load();
+
+            this.ui = new PluginUI();
+            this.cui = new ConfigUI(Config.Opacity, Config.IsClickthrough, Config.HideRedVulns, Config.HideBasedOnJob, Config);
             
             PluginInterface.UiBuilder.Draw += this.ui.Draw;
             PluginInterface.UiBuilder.Draw += this.cui.Draw;
@@ -84,7 +87,7 @@ namespace DeepDungeonDex
 
             CommandManager.RemoveHandler("/pddd");
 
-            PluginInterface.SavePluginConfig(this.config);
+            PluginInterface.SavePluginConfig(Config);
 
             PluginInterface.UiBuilder.Draw -= this.ui.Draw;
             PluginInterface.UiBuilder.Draw -= this.cui.Draw;

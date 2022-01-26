@@ -43,7 +43,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="data.yml">
+    <None Update="job-data.yml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="mob-data.yml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="DeepDungeonDex.json">
