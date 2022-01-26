@@ -76,8 +76,19 @@ namespace DeepDungeonDex.UI
             ImGui.SetNextWindowBgAlpha(Plugin.Config.Opacity);
 
             ImGui.Begin("cool strati window", flags);
+            
+            ImGui.Columns(2, null, false);
             ImGui.Text("Name:\n"+TargetData.Name);
             ImGui.NewLine();
+            ImGui.NextColumn();
+
+            var resetText = "Reset";
+            ImGui.SetCursorPosX(ImGui.GetCursorPosX() + ImGui.GetColumnWidth() - ImGui.CalcTextSize(resetText).X
+                - ImGui.GetScrollX() - 2 * ImGui.GetStyle().ItemSpacing.X);
+
+            if (ImGui.Selectable(resetText, false))
+                DataRepo.ClearOverride(TargetData.NameID);
+
             ImGui.Columns(3, null, false);
             ImGui.Text("Aggro Type:\n");
             ImGui.Text(mobData.Aggro.ToString());

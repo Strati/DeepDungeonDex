@@ -29,9 +29,9 @@ namespace DeepDungeonDex.Data
                 return null;
 
             if (_mobOverrideData.TryGetValue(id, out var value))
-                return value;
-            if (_mobData.TryGetValue(id, out value)) 
-                return value;
+                return new MobData(value);
+            if (_mobData.TryGetValue(id, out value))
+                return new MobData(value);
             return null;
         }
 
@@ -39,7 +39,7 @@ namespace DeepDungeonDex.Data
         {
             if (!_dataLoaded)
                 return;
-
+            
             _mobOverrideData[id] = data;
             Save();
         }
@@ -48,7 +48,7 @@ namespace DeepDungeonDex.Data
         {
             if (!_dataLoaded)
                 return;
-
+            
             _mobOverrideData.Remove(id);
             Save();
         }

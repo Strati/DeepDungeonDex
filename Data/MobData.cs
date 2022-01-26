@@ -16,6 +16,17 @@ namespace DeepDungeonDex.Data
             public bool? CanSleep;
             public bool? CanBind;
             public bool? IsUndead;
+
+            public Vulnerabilities() { }
+            public Vulnerabilities(Vulnerabilities vuln)
+            {
+                CanStun = vuln.CanStun;
+                CanHeavy = vuln.CanHeavy;
+                CanSlow = vuln.CanSlow;
+                CanSleep = vuln.CanSleep;
+                CanBind = vuln.CanBind;
+                IsUndead = vuln.IsUndead;
+            }
         }
         public Vulnerabilities Vuln { get; set; }
 
@@ -41,5 +52,13 @@ namespace DeepDungeonDex.Data
         }
         public AggroType Aggro { get; set; }
 
+        public MobData() { }
+        public MobData(MobData mob)
+        {
+            Vuln = new Vulnerabilities(mob.Vuln);
+            MobNotes = mob.MobNotes;
+            Threat = mob.Threat;
+            Aggro = mob.Aggro;
+        }
     }
 }
