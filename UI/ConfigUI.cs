@@ -11,7 +11,6 @@ namespace DeepDungeonDex.UI
 {
     public class ConfigUI
     {
-
         public bool IsVisible { get; set; }
         private float opacity;
         private bool isClickthrough;
