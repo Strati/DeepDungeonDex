@@ -1,6 +1,7 @@
 ﻿using ImGuiNET;
 using System.Numerics;
 using Dalamud.Game.ClientState;
+using DeepDungeonDex.Data;
 
 namespace DeepDungeonDex
 {
@@ -89,22 +90,22 @@ namespace DeepDungeonDex
             ImGui.Text("Threat:\n");
             switch (mobData.Threat)
             {
-                case DataHandler.MobData.ThreatLevel.Easy:
+                case MobData.ThreatLevel.Easy:
                     ImGui.PushStyleColor(ImGuiCol.Text, 0xFF00FF00);
                     ImGui.Text("Easy");
                     ImGui.PopStyleColor();
                     break;
-                case DataHandler.MobData.ThreatLevel.Caution:
+                case MobData.ThreatLevel.Caution:
                     ImGui.PushStyleColor(ImGuiCol.Text, 0xFF00FFFF);
                     ImGui.Text("Caution");
                     ImGui.PopStyleColor();
                     break;
-                case DataHandler.MobData.ThreatLevel.Dangerous:
+                case MobData.ThreatLevel.Dangerous:
                     ImGui.PushStyleColor(ImGuiCol.Text, 0xFF0000FF);
                     ImGui.Text("Dangerous");
                     ImGui.PopStyleColor();
                     break;
-                case DataHandler.MobData.ThreatLevel.Vicious:
+                case MobData.ThreatLevel.Vicious:
                     ImGui.PushStyleColor(ImGuiCol.Text, 0xFFFF00FF);
                     ImGui.Text("Vicious");
                     ImGui.PopStyleColor();

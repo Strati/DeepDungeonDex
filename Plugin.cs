@@ -1,4 +1,5 @@
 ﻿using System;
+using Dalamud.Data;
 using Dalamud.Game.ClientState;
 using Dalamud.Plugin;
 using Dalamud.Game.ClientState.Conditions;
@@ -6,53 +7,47 @@ using Dalamud.Game.ClientState.Objects;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Game.Command;
 using Dalamud.Game;
+using Dalamud.Game.Gui;
+using Dalamud.Game.Network;
+using Dalamud.IoC;
+using DeepDungeonDex.Data;
 
 namespace DeepDungeonDex
 {
     public class Plugin : IDalamudPlugin
     {
-        private DalamudPluginInterface pluginInterface;
         private Configuration config;
         private PluginUI ui;
         private ConfigUI cui;
         private GameObject previousTarget;
-        private ClientState _clientState;
-        private Condition _condition;
-        private TargetManager _targetManager;
-        private Framework _framework;
-        private CommandManager _commands;
+
+        [PluginService] internal static DalamudPluginInterface PluginInterface { get; private set; } = null!;
+        [PluginService] internal static ClientState ClientState { get; private set; } = null!;
+        [PluginService] internal static CommandManager CommandManager { get; private set; } = null!;
+        [PluginService] internal static Condition Condition { get; private set; } = null!;
+        [PluginService] internal static Framework Framework { get; private set; } = null!;
+        [PluginService] internal static TargetManager Targets { get; private set; } = null!;
 
         public string Name => "DeepDungeonDex";
 
-        public Plugin(
-            DalamudPluginInterface pluginInterface,
-            ClientState clientState,
-            CommandManager commands,
-            Condition condition,
-            Framework framework,
-            //SeStringManager seStringManager,
-            TargetManager targets)
+        public Plugin()
         {
-            this.pluginInterface = pluginInterface;
-            this._clientState = clientState;
-            this._condition = condition;
-            this._framework = framework;
-            this._commands = commands;
-            this._targetManager = targets;
+            DataHandler.Load();
 
-            this.config = (Configuration)this.pluginInterface.GetPluginConfig() ?? new Configuration();
-            this.config.Initialize(this.pluginInterface);
-            this.ui = new PluginUI(config, clientState);
+            this.config = (Configuration)PluginInterface.GetPluginConfig() ?? new Configuration();
+            this.config.Initialize(PluginInterface);
+            this.ui = new PluginUI(config, ClientState);
             this.cui = new ConfigUI(config.Opacity, config.IsClickthrough, config.HideRedVulns, config.HideBasedOnJob, config);
-            this.pluginInterface.UiBuilder.Draw += this.ui.Draw;
-            this.pluginInterface.UiBuilder.Draw += this.cui.Draw;
+            
+            PluginInterface.UiBuilder.Draw += this.ui.Draw;
+            PluginInterface.UiBuilder.Draw += this.cui.Draw;
 
-            this._commands.AddHandler("/pddd", new CommandInfo(OpenConfig)
+            CommandManager.AddHandler("/pddd", new CommandInfo(OpenConfig)
             {
                 HelpMessage = "DeepDungeonDex config"
             });
-
-            this._framework.Update += this.GetData;
+            
+            Framework.Update += this.GetData;
         }
 
         public void OpenConfig(string command, string args)
@@ -62,12 +57,12 @@ namespace DeepDungeonDex
 
         public void GetData(Framework framework)
         {
-            if (!this._condition[ConditionFlag.InDeepDungeon])
+            if (!Condition[ConditionFlag.InDeepDungeon])
             {
                 ui.IsVisible = false;
                 return;
             }
-            GameObject target = _targetManager.Target;
+            GameObject target = Targets.Target;
 
             TargetData t = new TargetData();
             if (!t.IsValidTarget(target))
@@ -87,16 +82,14 @@ namespace DeepDungeonDex
         {
             if (!disposing) return;
 
-            this._commands.RemoveHandler("/pddd");
+            CommandManager.RemoveHandler("/pddd");
 
-            this.pluginInterface.SavePluginConfig(this.config);
+            PluginInterface.SavePluginConfig(this.config);
 
-            this.pluginInterface.UiBuilder.Draw -= this.ui.Draw;
-            this.pluginInterface.UiBuilder.Draw -= this.cui.Draw;
+            PluginInterface.UiBuilder.Draw -= this.ui.Draw;
+            PluginInterface.UiBuilder.Draw -= this.cui.Draw;
 
-            this._framework.Update -= this.GetData;
-
-            this.pluginInterface.Dispose();
+            Framework.Update -= this.GetData;
         }
 
         public void Dispose()
