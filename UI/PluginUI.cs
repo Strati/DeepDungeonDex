@@ -15,39 +15,52 @@ namespace DeepDungeonDex.UI
 
         public PluginUI() { }
 
-        private void PrintSingleVuln(bool? isVulnerable, string message, bool? jobOkay = null)
+        private bool PrintSingleVuln(ref bool? isVulnerable, string message, bool? jobOkay)
         {
             if (jobOkay == false && Plugin.Config.HideBasedOnJob)
-                return;
+                return false;
 
-            switch (isVulnerable)
+            if (isVulnerable == false && Plugin.Config.HideRedVulns)
+                return false;
+
+            var color = isVulnerable switch
             {
-                case true:
-                    ImGui.PushStyleColor(ImGuiCol.Text, 0xFF00FF00);
-                    ImGui.Text(message);
-                    ImGui.PopStyleColor();
-                    break;
-                case false:
-                    if (!Plugin.Config.HideRedVulns)
-                    {
-                        ImGui.PushStyleColor(ImGuiCol.Text, 0xFF0000FF);
-                        ImGui.Text(message);
-                        ImGui.PopStyleColor();
-                    }
-                    break;
-                default:
-                    ImGui.PushStyleColor(ImGuiCol.Text, 0x50FFFFFF);
-                    ImGui.Text(message);
-                    ImGui.PopStyleColor();
-                    break;
+                true => 0xFF00FF00,
+                false => 0xFF0000FF,
+                _ => (uint)0x50FFFFFF
+            };
+
+            var dataChanged = false;
+
+            ImGui.PushStyleColor(ImGuiCol.Text, color);
+            
+            if (ImGui.Selectable(message, false))
+            {
+                //move next state
+                isVulnerable = MoveNextState(isVulnerable);
+                dataChanged = true;
             }
+
+            ImGui.PopStyleColor();
+
+            return dataChanged;
+        }
+
+        private bool? MoveNextState(bool? state)
+        {
+            return state switch
+            {
+                true => false,
+                false => null,
+                _ => true
+            };
         }
 
         public void Draw()
         {
             if (!IsVisible)
                 return;
-
+            
             var mobData = DataRepo.GetMob(TargetData.NameID);
             if (mobData == null) return;
 
@@ -98,16 +111,21 @@ namespace DeepDungeonDex.UI
             }
             ImGui.NextColumn();
 
-            PrintSingleVuln(mobData.Vuln.CanStun, "Stun", jobData?.CanStun);
-            PrintSingleVuln(mobData.Vuln.CanSleep, "Sleep", jobData?.CanSleep);
-            PrintSingleVuln(mobData.Vuln.CanBind, "Bind", jobData?.CanBind);
-            PrintSingleVuln(mobData.Vuln.CanHeavy, "Heavy", jobData?.CanHeavy);
-            PrintSingleVuln(mobData.Vuln.CanSlow, "Slow", jobData?.CanSlow);
+            var dataChanged = false;
+
+            dataChanged |= PrintSingleVuln(ref mobData.Vuln.CanStun, "Stun", jobData?.CanStun);
+            dataChanged |= PrintSingleVuln(ref mobData.Vuln.CanSleep, "Sleep", jobData?.CanSleep);
+            dataChanged |= PrintSingleVuln(ref mobData.Vuln.CanBind, "Bind", jobData?.CanBind);
+            dataChanged |= PrintSingleVuln(ref mobData.Vuln.CanHeavy, "Heavy", jobData?.CanHeavy);
+            dataChanged |= PrintSingleVuln(ref mobData.Vuln.CanSlow, "Slow", jobData?.CanSlow);
 
             if (!(TargetData.NameID >= 7262 && TargetData.NameID <= 7610))
             {
-                PrintSingleVuln(mobData.Vuln.IsUndead, "Undead");
+                dataChanged |= PrintSingleVuln(ref mobData.Vuln.IsUndead, "Undead", null);
             }
+
+            if (dataChanged)
+                DataRepo.SaveOverride(TargetData.NameID, mobData);
 
             ImGui.NextColumn();
             ImGui.Columns(1);

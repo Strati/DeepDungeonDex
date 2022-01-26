@@ -10,12 +10,12 @@ namespace DeepDungeonDex.Data
     {
         public class Vulnerabilities
         {
-            public bool? CanStun { get; set; }
-            public bool? CanHeavy { get; set; }
-            public bool? CanSlow { get; set; }
-            public bool? CanSleep { get; set; }
-            public bool? CanBind { get; set; }
-            public bool? IsUndead { get; set; }
+            public bool? CanStun;
+            public bool? CanHeavy;
+            public bool? CanSlow;
+            public bool? CanSleep;
+            public bool? CanBind;
+            public bool? IsUndead;
         }
         public Vulnerabilities Vuln { get; set; }
 
