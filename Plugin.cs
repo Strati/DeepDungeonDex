@@ -19,6 +19,9 @@ namespace DeepDungeonDex
         private PluginUI MainUI;
         private ConfigUI ConfigUI;
 
+        public static DataRepo<MobData> MobRepo { get; private set; }
+        public static DataRepo<JobData> JobRepo { get; private set; }
+
         [PluginService] internal static DalamudPluginInterface PluginInterface { get; private set; } = null!;
         [PluginService] internal static ClientState ClientState { get; private set; } = null!;
         [PluginService] internal static CommandManager CommandManager { get; private set; } = null!;
@@ -33,7 +36,8 @@ namespace DeepDungeonDex
             Config = (Configuration)PluginInterface.GetPluginConfig() ?? new Configuration();
             Config.Initialize(PluginInterface);
 
-            DataRepo.Load();
+            MobRepo = DataRepo<MobData>.Create("mob-data").Load();
+            JobRepo = DataRepo<JobData>.Create("job-data").Load();
 
             MainUI = new PluginUI();
             ConfigUI = new ConfigUI(Config.Opacity, Config.IsClickthrough, Config.HideRedVulns, Config.HideBasedOnJob, Config);

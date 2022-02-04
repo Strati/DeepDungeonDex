@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeepDungeonDex.Data
 {
-    public class JobData
+    public class JobData : IRepoData<JobData>
     {
         public string Name { get; set; }
 
@@ -15,5 +15,18 @@ namespace DeepDungeonDex.Data
         public bool CanBind { get; set; }
         public bool CanHeavy { get; set; }
         public bool CanSlow { get; set; }
+
+        public JobData Clone()
+        {
+            return new JobData()
+            {
+                Name = Name,
+                CanStun = CanStun,
+                CanSleep = CanSleep,
+                CanBind = CanBind,
+                CanHeavy = CanHeavy,
+                CanSlow = CanSlow
+            };
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DeepDungeonDex.Data
 {
-    public class MobData
+    public class MobData : IRepoData<MobData>
     {
         public class Vulnerabilities
         {
@@ -53,12 +53,16 @@ namespace DeepDungeonDex.Data
         public AggroType Aggro { get; set; }
 
         public MobData() { }
-        public MobData(MobData mob)
+
+        public MobData Clone()
         {
-            Vuln = new Vulnerabilities(mob.Vuln);
-            MobNotes = mob.MobNotes;
-            Threat = mob.Threat;
-            Aggro = mob.Aggro;
+            return new MobData()
+            {
+                Vuln = new Vulnerabilities(Vuln),
+                MobNotes = MobNotes,
+                Threat = Threat,
+                Aggro = Aggro
+            };
         }
     }
 }
