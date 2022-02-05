@@ -28,7 +28,7 @@ namespace DeepDungeonDex.Data
             {
                 Name = name,
                 DbPath = Path.Combine(dir, $"{name}.yml"),
-                OverrideDbPath = Path.Combine(Plugin.PluginInterface.GetPluginConfigDirectory(), $"{name}-overrides.yml")
+                OverrideDbPath = Path.Combine(plugin.GetPluginConfigDirectory(), $"{name}-overrides.yml")
             };
 
             return repo;
