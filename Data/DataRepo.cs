@@ -11,24 +11,30 @@ namespace DeepDungeonDex.Data
 {
     public class DataRepo<T> where T : class, IRepoData<T>
     {
-        private object _lock = new object();
+        private object _lock = new();
         private bool _dataLoaded = false;
 
         private Dictionary<uint, T> _data;
         private Dictionary<uint, T> _overrideData;
-        
-        private string DataDir => Plugin.PluginInterface.AssemblyLocation.Directory.FullName;
-        private string DbPath => Path.Combine(DataDir, $"{Name}.yml");
-        private string OverrideDbPath => Path.Combine(Plugin.PluginInterface.GetPluginConfigDirectory(), $"{Name}-overrides.yml");
 
-        public string Name { get; }
+        public string Name { get; init; }
+        private string DbPath { get; init; }
+        private string OverrideDbPath { get; init; }
 
-        public static DataRepo<T> Create(string name) => new DataRepo<T>(name);
-
-        private DataRepo(string name)
+        public static DataRepo<T> Create(DalamudPluginInterface plugin, string name)
         {
-            Name = name;
+            var dir = plugin.AssemblyLocation.Directory.FullName;
+            var repo = new DataRepo<T>()
+            {
+                Name = name,
+                DbPath = Path.Combine(dir, $"{name}.yml"),
+                OverrideDbPath = Path.Combine(Plugin.PluginInterface.GetPluginConfigDirectory(), $"{name}-overrides.yml")
+            };
+
+            return repo;
         }
+
+        private DataRepo() { }
 
         public T Get(uint id)
         {

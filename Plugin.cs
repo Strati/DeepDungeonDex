@@ -36,8 +36,8 @@ namespace DeepDungeonDex
             Config = (Configuration)PluginInterface.GetPluginConfig() ?? new Configuration();
             Config.Initialize(PluginInterface);
 
-            MobRepo = DataRepo<MobData>.Create("mob-data").Load();
-            JobRepo = DataRepo<JobData>.Create("job-data").Load();
+            MobRepo = DataRepo<MobData>.Create(PluginInterface, "mob-data").Load();
+            JobRepo = DataRepo<JobData>.Create(PluginInterface, "job-data").Load();
 
             MainUI = new PluginUI();
             ConfigUI = new ConfigUI(Config.Opacity, Config.IsClickthrough, Config.HideRedVulns, Config.HideBasedOnJob, Config);
