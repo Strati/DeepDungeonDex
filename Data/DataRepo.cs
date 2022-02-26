@@ -9,62 +9,72 @@ using YamlDotNet.Serialization.NamingConventions;
 
 namespace DeepDungeonDex.Data
 {
-    public class DataRepo
+    public class DataRepo<T> where T : class, IRepoData<T>
     {
-        private static object _lock = new object();
-        private static bool _dataLoaded = false;
+        private object _lock = new();
+        private bool _dataLoaded = false;
 
-        private static Dictionary<uint, MobData> _mobData;
-        private static Dictionary<uint, MobData> _mobOverrideData;
-        private static Dictionary<uint, JobData> _jobData;
+        private Dictionary<uint, T> _data;
+        private Dictionary<uint, T> _overrideData;
 
-        private static string DataDir => Plugin.PluginInterface.AssemblyLocation.Directory.FullName;
-        private static string MobsDbPath => Path.Combine(DataDir, "mob-data.yml");
-        private static string MobOverrideDbPath => Path.Combine(Plugin.PluginInterface.GetPluginConfigDirectory(), "mob-overrides-data.yml");
-        private static string JobsDbPath => Path.Combine(DataDir, "job-data.yml");
+        public string Name { get; init; }
+        private string DbPath { get; init; }
+        private string OverrideDbPath { get; init; }
 
-        public static MobData GetMob(uint id)
+        public static DataRepo<T> Create(DalamudPluginInterface plugin, string name)
         {
+            var dir = plugin.AssemblyLocation.Directory.FullName;
+            var repo = new DataRepo<T>()
+            {
+                Name = name,
+                DbPath = Path.Combine(dir, $"{name}.yml"),
+                OverrideDbPath = Path.Combine(plugin.GetPluginConfigDirectory(), $"{name}-overrides.yml")
+            };
+
+            return repo;
+        }
+
+        private DataRepo() { }
+
+        public T Get(uint id)
+        {
+            return Get(id, out _);
+        }
+        public T Get(uint id, out bool isOverride)
+        {
+            isOverride = false;
             if (!_dataLoaded)
                 return null;
 
-            if (_mobOverrideData.TryGetValue(id, out var value))
-                return new MobData(value);
-            if (_mobData.TryGetValue(id, out value))
-                return new MobData(value);
+            if (_overrideData.TryGetValue(id, out var value))
+            {
+                isOverride = true;
+                return value.Clone();
+            }
+            if (_data.TryGetValue(id, out value))
+                return value.Clone();
             return null;
         }
 
-        public static void SaveOverride(uint id, MobData data)
+        public void SaveOverride(uint id, T data)
         {
             if (!_dataLoaded)
                 return;
             
-            _mobOverrideData[id] = data;
+            _overrideData[id] = data;
             Save();
         }
 
-        public static void ClearOverride(uint id)
+        public void ClearOverride(uint id)
         {
             if (!_dataLoaded)
                 return;
             
-            _mobOverrideData.Remove(id);
+            _overrideData.Remove(id);
             Save();
         }
-
-
-        public static JobData GetJob(uint id)
-        {
-            if (!_dataLoaded)
-                return null;
-
-            if (_jobData.TryGetValue(id, out var value))
-                return value;
-            return null;
-        }
-
-        public static void Load()
+        
+        public DataRepo<T> Load()
         {
             Task.Run(() =>
             {
@@ -74,31 +84,29 @@ namespace DeepDungeonDex.Data
                         .WithNamingConvention(CamelCaseNamingConvention.Instance)
                         .Build();
 
-                    var yaml = File.ReadAllText(MobsDbPath);
-                    _mobData = deserializer.Deserialize<Dictionary<uint, MobData>>(yaml);
+                    var yaml = File.ReadAllText(DbPath);
+                    _data = deserializer.Deserialize<Dictionary<uint, T>>(yaml);
 
-                    if (File.Exists(MobOverrideDbPath))
+                    if (File.Exists(OverrideDbPath))
                     {
-                        yaml = File.ReadAllText(MobOverrideDbPath);
-                        _mobOverrideData = deserializer.Deserialize<Dictionary<uint, MobData>>(yaml);
+                        yaml = File.ReadAllText(OverrideDbPath);
+                        _overrideData = deserializer.Deserialize<Dictionary<uint, T>>(yaml);
                     }
                     else
-                        _mobOverrideData = new Dictionary<uint, MobData>();
-
-                    yaml = File.ReadAllText(JobsDbPath);
-                    _jobData = deserializer.Deserialize<Dictionary<uint, JobData>>(yaml);
-                    
+                        _overrideData = new Dictionary<uint, T>();
 
                     _dataLoaded = true;
                 }
                 catch(Exception ex)
                 {
-                    PluginLog.Error("Error loading database: " + ex);
+                    PluginLog.Error($"Error loading database ({Name}): {ex}");
                 }
             });
+
+            return this;
         }
 
-        private static void Save()
+        private void Save()
         {
             Task.Run(() =>
             {
@@ -110,13 +118,13 @@ namespace DeepDungeonDex.Data
                             .WithNamingConvention(CamelCaseNamingConvention.Instance)
                             .Build();
 
-                        var yaml = serializer.Serialize(_mobOverrideData);
-                        File.WriteAllText(MobOverrideDbPath, yaml);
+                        var yaml = serializer.Serialize(_overrideData);
+                        File.WriteAllText(OverrideDbPath, yaml);
                     }
                 }
                 catch (Exception ex)
                 {
-                    PluginLog.Error("Error saving database: " + ex);
+                    PluginLog.Error($"Error saving database ({Name}): " + ex);
                 }
             });
         }

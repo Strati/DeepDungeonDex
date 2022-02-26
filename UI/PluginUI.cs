@@ -61,11 +61,11 @@ namespace DeepDungeonDex.UI
             if (!IsVisible)
                 return;
             
-            var mobData = DataRepo.GetMob(TargetData.NameID);
+            var mobData = Plugin.MobRepo.Get(TargetData.NameID, out var isOverride);
             if (mobData == null) return;
 
             var cjid = Plugin.ClientState.LocalPlayer?.ClassJob.GameData?.RowId ?? 0;
-            var jobData = DataRepo.GetJob(cjid);
+            var jobData = Plugin.JobRepo.Get(cjid);
 
             var flags = ImGuiWindowFlags.NoResize | ImGuiWindowFlags.AlwaysAutoResize | ImGuiWindowFlags.NoTitleBar;
             if (Plugin.Config.IsClickthrough)
@@ -82,12 +82,15 @@ namespace DeepDungeonDex.UI
             ImGui.NewLine();
             ImGui.NextColumn();
 
-            var resetText = "Reset";
-            ImGui.SetCursorPosX(ImGui.GetCursorPosX() + ImGui.GetColumnWidth() - ImGui.CalcTextSize(resetText).X
-                - ImGui.GetScrollX() - 2 * ImGui.GetStyle().ItemSpacing.X);
+            if (isOverride)
+            {
+                var resetText = "Reset";
+                ImGui.SetCursorPosX(ImGui.GetCursorPosX() + ImGui.GetColumnWidth() - ImGui.CalcTextSize(resetText).X
+                    - ImGui.GetScrollX() - 2 * ImGui.GetStyle().ItemSpacing.X);
 
-            if (ImGui.Selectable(resetText, false))
-                DataRepo.ClearOverride(TargetData.NameID);
+                if (ImGui.Selectable(resetText, false))
+                    Plugin.MobRepo.ClearOverride(TargetData.NameID);
+            }
 
             ImGui.Columns(3, null, false);
             ImGui.Text("Aggro Type:\n");
@@ -136,7 +139,7 @@ namespace DeepDungeonDex.UI
             }
 
             if (dataChanged)
-                DataRepo.SaveOverride(TargetData.NameID, mobData);
+                Plugin.MobRepo.SaveOverride(TargetData.NameID, mobData);
 
             ImGui.NextColumn();
             ImGui.Columns(1);
