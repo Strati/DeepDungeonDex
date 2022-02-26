@@ -3504,7 +3504,7 @@
     isUndead: false
   mobNotes: ''
   threat: Easy
-  aggro: Sight
+  aggro: Proximity
 5363:
   vuln:
     canStun: true
