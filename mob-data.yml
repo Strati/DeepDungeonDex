@@ -4135,7 +4135,7 @@
     canSlow: 
     canSleep: 
     canBind: 
-    isUndead: false
+    isUndead: true
   mobNotes: >-
     Floors 141-150: 
 
@@ -4199,7 +4199,7 @@
     canSlow: 
     canSleep: 
     canBind: 
-    isUndead: false
+    isUndead: true
   mobNotes: Casts Gaze "Evil Eye"
   threat: Easy
   aggro: Proximity
@@ -4749,7 +4749,7 @@
     isUndead: false
   mobNotes: ''
   threat: Easy
-  aggro: Sound
+  aggro: Sight
 5470:
   vuln:
     canStun: false
@@ -4814,7 +4814,7 @@
     canSlow: 
     canSleep: false
     canBind: false
-    isUndead: false
+    isUndead: true
   mobNotes: ''
   threat: Easy
   aggro: Proximity
@@ -4842,7 +4842,7 @@
     isUndead: false
   mobNotes: ''
   threat: Easy
-  aggro: Sound
+  aggro: Sight
 5480:
   vuln:
     canStun: true
@@ -4853,7 +4853,7 @@
     isUndead: false
   mobNotes: ''
   threat: Easy
-  aggro: Sound
+  aggro: Sight
 2566:
   vuln:
     canStun: false
