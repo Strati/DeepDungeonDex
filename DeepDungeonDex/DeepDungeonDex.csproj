@@ -13,6 +13,12 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>$(AppData)\XIVLauncher\devPlugins\DeepDungeonDex\</OutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove=".github\**" />
+    <EmbeddedResource Remove=".github\**" />
+    <None Remove=".github\**" />
+  </ItemGroup>
   
   <ItemGroup>
     <Reference Include="Dalamud">
@@ -62,11 +68,6 @@
     <Reference Update="System.Numerics">
       <Private>false</Private>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include=".github\FUNDING.yml" />
-    <Content Include=".github\workflows\BuildAndPR.yaml" />
   </ItemGroup>
 
 </Project>
