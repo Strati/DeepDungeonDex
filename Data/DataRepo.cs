@@ -18,8 +18,8 @@ namespace DeepDungeonDex.Data
         private Dictionary<uint, T> _overrideData;
 
         public string Name { get; init; }
-        private string DbPath { get; init; }
-        private string OverrideDbPath { get; init; }
+        public string DbPath { get; init; }
+        public string OverrideDbPath { get; init; }
 
         public static DataRepo<T> Create(DalamudPluginInterface plugin, string name)
         {
@@ -95,6 +95,7 @@ namespace DeepDungeonDex.Data
                     else
                         _overrideData = new Dictionary<uint, T>();
 
+                    PluginLog.Information($"Loaded data: mobs={_data.Count}, overrides={_overrideData.Count}");
                     _dataLoaded = true;
                 }
                 catch(Exception ex)

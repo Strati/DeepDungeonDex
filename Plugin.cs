@@ -7,6 +7,7 @@ using Dalamud.Game.ClientState.Objects;
 using Dalamud.Game.Command;
 using Dalamud.Game;
 using Dalamud.IoC;
+using Dalamud.Logging;
 using DeepDungeonDex.Data;
 using DeepDungeonDex.UI;
 
@@ -49,14 +50,31 @@ namespace DeepDungeonDex
             CommandManager.AddHandler("/pddd", new CommandInfo((c,a) => OpenConfig())
             {
                 HelpMessage = "DeepDungeonDex config"
+            }); 
+            CommandManager.AddHandler("/pddd-merge", new CommandInfo((c, a) => MergeData())
+            {
+                ShowInHelp = false
             });
-            
+
             Framework.Update += GetData;
         }
 
         public void OpenConfig()
         {
             ConfigUI.IsVisible = true;
+        }
+
+        public void MergeData()
+        {
+            try
+            {
+                YamlMerge.MergeCustomChanges();
+                PluginLog.Information("Yaml merge ok.");
+            }
+            catch(Exception ex)
+            {
+                PluginLog.Error(ex, "Failed to merge changes");
+            }
         }
 
         public void GetData(Framework framework)
@@ -77,6 +95,7 @@ namespace DeepDungeonDex
             if (!disposing) return;
 
             CommandManager.RemoveHandler("/pddd");
+            CommandManager.RemoveHandler("/pddd-merge");
 
             PluginInterface.SavePluginConfig(Config);
 
