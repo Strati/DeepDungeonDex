@@ -30,6 +30,7 @@ namespace DeepDungeonDex.Data
         }
         public Vulnerabilities Vuln { get; set; }
 
+        public string Name { get; set; }
         public string MobNotes { get; set; }
 
         public enum ThreatLevel
@@ -59,6 +60,7 @@ namespace DeepDungeonDex.Data
             return new MobData()
             {
                 Vuln = new Vulnerabilities(Vuln),
+                Name = Name,
                 MobNotes = MobNotes,
                 Threat = Threat,
                 Aggro = Aggro
