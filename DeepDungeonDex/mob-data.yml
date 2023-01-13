@@ -5262,7 +5262,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5275,7 +5275,7 @@
   vuln:
     canStun: false
     canHeavy: false
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: false
     isUndead: false
@@ -5288,7 +5288,7 @@
   vuln:
     canStun: false
     canHeavy: false
-    canSlow: 
+    canSlow: true
     canSleep: false
     canBind: false
     isUndead: false
@@ -5304,7 +5304,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: false
     isUndead: false
@@ -5333,7 +5333,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5346,7 +5346,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5359,7 +5359,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5372,7 +5372,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5385,7 +5385,7 @@
   vuln:
     canStun: true
     canHeavy: false
-    canSlow: 
+    canSlow: true
     canSleep: false
     canBind: false
     isUndead: false
@@ -5401,7 +5401,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5435,7 +5435,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: true
     canBind: true
     isUndead: false
@@ -5448,7 +5448,7 @@
   vuln:
     canStun: true
     canHeavy: true
-    canSlow: 
+    canSlow: true
     canSleep: false
     canBind: true
     isUndead: false
