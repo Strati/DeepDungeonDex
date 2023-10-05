@@ -10,6 +10,7 @@ using Dalamud.IoC;
 using Dalamud.Logging;
 using DeepDungeonDex.Data;
 using DeepDungeonDex.UI;
+using Dalamud.Plugin.Services;
 
 namespace DeepDungeonDex
 {
@@ -24,11 +25,11 @@ namespace DeepDungeonDex
         public static DataRepo<JobData> JobRepo { get; private set; }
 
         [PluginService] internal static DalamudPluginInterface PluginInterface { get; private set; } = null!;
-        [PluginService] internal static ClientState ClientState { get; private set; } = null!;
-        [PluginService] internal static CommandManager CommandManager { get; private set; } = null!;
-        [PluginService] internal static Condition Condition { get; private set; } = null!;
-        [PluginService] internal static Framework Framework { get; private set; } = null!;
-        [PluginService] internal static TargetManager Targets { get; private set; } = null!;
+        [PluginService] internal static IClientState ClientState { get; private set; } = null!;
+        [PluginService] internal static ICommandManager CommandManager { get; private set; } = null!;
+        [PluginService] internal static ICondition Condition { get; private set; } = null!;
+        [PluginService] internal static IFramework Framework { get; private set; } = null!;
+        [PluginService] internal static ITargetManager Targets { get; private set; } = null!;
 
         public string Name => "DeepDungeonDex";
 
@@ -77,7 +78,7 @@ namespace DeepDungeonDex
             }
         }
 
-        public void GetData(Framework framework)
+        public void GetData(IFramework framework)
         {
             if (!Condition[ConditionFlag.InDeepDungeon])
             {
