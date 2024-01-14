@@ -1,0 +1,287 @@
+0:
+  name: adventurer
+  canStun: true
+  canSleep: true
+  canBind: true
+  canHeavy: true
+  canSlow: true
+1:
+  name: gladiator
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+2:
+  name: pugilist
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+3:
+  name: marauder
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+4:
+  name: lancer
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+5:
+  name: archer
+  canStun: false
+  canSleep: false
+  canBind: true
+  canHeavy: true
+  canSlow: true
+6:
+  name: conjurer
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+7:
+  name: thaumaturge
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+8:
+  name: carpenter
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+9:
+  name: blacksmith
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+10:
+  name: armorer
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+11:
+  name: goldsmith
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+12:
+  name: leatherworker
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+13:
+  name: weaver
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+14:
+  name: alchemist
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+15:
+  name: culinarian
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+16:
+  name: miner
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+17:
+  name: botanist
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+18:
+  name: fisher
+  canStun: false
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: false
+19:
+  name: paladin
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+20:
+  name: monk
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+21:
+  name: warrior
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+22:
+  name: dragoon
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+23:
+  name: bard
+  canStun: false
+  canSleep: false
+  canBind: true
+  canHeavy: true
+  canSlow: true
+24:
+  name: white mage
+  canStun: true
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+25:
+  name: black mage
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+26:
+  name: arcanist
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+27:
+  name: summoner
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+28:
+  name: scholar
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+29:
+  name: rogue
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+30:
+  name: ninja
+  canStun: true
+  canSleep: false
+  canBind: true
+  canHeavy: true
+  canSlow: true
+31:
+  name: machinist
+  canStun: false
+  canSleep: false
+  canBind: true
+  canHeavy: true
+  canSlow: true
+32:
+  name: dark knight
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+33:
+  name: astrologian
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+34:
+  name: samurai
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+35:
+  name: red mage
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false
+36:
+  name: blue mage
+  canStun: true
+  canSleep: true
+  canBind: true
+  canHeavy: true
+  canSlow: true
+37:
+  name: gunbreaker
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+38:
+  name: dancer
+  canStun: false
+  canSleep: false
+  canBind: true
+  canHeavy: true
+  canSlow: true
+39:
+  name: reaper
+  canStun: true
+  canSleep: false
+  canBind: false
+  canHeavy: false
+  canSlow: true
+40:
+  name: sage
+  canStun: false
+  canSleep: true
+  canBind: false
+  canHeavy: false
+  canSlow: false

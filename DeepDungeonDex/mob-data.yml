@@ -1,0 +1,5682 @@
+# --------------------------
+# HoH
+# --------------------------
+
+# --------------------------
+# HoH floors 1-9
+# --------------------------
+7262:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly naked yumemi
+  mobNotes: Auto inflicts Heavy debuff
+  threat: Easy
+  aggro: Sight
+
+7263:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mutsu
+  mobNotes: Auto applies Physical Vuln Up every 10s
+  threat: Easy
+  aggro: Sight
+
+7264:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly bombfish
+  mobNotes: AoE applies Paralysis
+  threat: Easy
+  aggro: Sight
+
+7265:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly onryo
+  mobNotes: Triple auto inflicts Bleed
+  threat: Dangerous
+  aggro: Proximity
+
+7266:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly coralshell
+  mobNotes: Untelegraphed Sleep followed by AoE
+  threat: Caution
+  aggro: Sight
+
+7267:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly gyuki
+  mobNotes: AoE applies Bleed
+  threat: Easy
+  aggro: Sight
+
+7268:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly uwabami
+  mobNotes: Gaze
+  threat: Easy
+  aggro: Sight
+
+7269:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kraken
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+7270:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly ango
+  mobNotes: AoE inflicts knockback
+  threat: Easy
+  aggro: Sight
+
+7271:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly matamata
+  mobNotes: >-
+    Conal AoE inflicts Bleed
+
+    Circle AoE inflicts knockback
+  threat: Easy
+  aggro: Sight
+
+7272:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shark
+  mobNotes: Unavoidable tankbuster-like "Jaws"
+  threat: Dangerous
+  aggro: Sight
+
+7273:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly Amikiri
+  mobNotes: Untelegraphed buster inflicts Bleed and knockback
+  threat: Caution
+  aggro: Sight
+
+7274:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly yumemi
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+# --------------------------
+# HoH floors 11-19
+# --------------------------
+7275:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly korpokkur
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7276:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shizuku
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+7277:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shiomushi
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7278:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hakagiri
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7279:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly unkiu
+  mobNotes: Lite buster "Scissor Run" followed by AoE
+  threat: Caution
+  aggro: Sight
+
+7280:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly apa
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+7281:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly otokage
+  mobNotes: Gaze inflicts Seduce, followed by large AoE that inflicts Minimum
+  threat: Caution
+  aggro: Sight
+
+7282:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tatsunoko
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7283:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shioname
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7284:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly amagoi
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7285:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly Namazu
+  mobNotes: Buster and triple auto
+  threat: Caution
+  aggro: Sight
+
+7286:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hand
+  mobNotes: Roomwide ENRAGE
+  threat: Dangerous
+  aggro: Sight
+
+7287:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly aomino
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+# --------------------------
+# HoH floors 21-29
+# --------------------------
+7288:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: false
+    isUndead: 
+  name: heavenly onibi
+  mobNotes: Gaze inflicts Blind
+  threat: Easy
+  aggro: Proximity
+
+7289:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: 
+  name: heavenly halgai
+  mobNotes: Cures self and allies
+  threat: Easy
+  aggro: Sight
+
+7290:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: 
+  name: heavenly dhruva
+  mobNotes: >-
+    Casts AoEs with knockback unaggroed
+
+    Line AoE inflicts Bleed
+  threat: Easy
+  aggro: Proximity
+
+7291:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: 
+  name: heavenly sai taisui
+  mobNotes: Buffs own damage
+  threat: Easy
+  aggro: Sight
+
+7292:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: 
+  name: heavenly hatamoto
+  mobNotes: Untelegraphed conal AoE with knockback, buster
+  threat: Caution
+  aggro: Proximity
+
+7293:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tenaga
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7294:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: 
+  name: heavenly keukegen
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7295:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly yuki
+  mobNotes: Draw-in followed by cleave
+  threat: Caution
+  aggro: Proximity
+
+7296:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tengu
+  mobNotes: Gaze
+  threat: Easy
+  aggro: Sight
+
+7297:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: 
+  name: heavenly koja
+  mobNotes: Line AoE inflicts Bleed
+  threat: Easy
+  aggro: Sound
+
+7298:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly katasharin
+  mobNotes: Cross AoE inflicts Suppuration
+  threat: Easy
+  aggro: Sight
+
+7299:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly menreiki
+  mobNotes: Large AoE inflicts Paralysis
+  threat: Easy
+  aggro: Sight
+
+7300:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly wanyudo
+  mobNotes: Circle AoE inflicts Suppuration
+  threat: Easy
+  aggro: Sight
+
+# --------------------------
+# HoH floors 31-39
+# --------------------------
+7301:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly gedan
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7302:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hornbill
+  mobNotes: Casts AoEs unaggroed
+  threat: Easy
+  aggro: Sight
+
+7303:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hanya
+  mobNotes: >-
+    Double auto inflicts Bleed
+
+    Low health ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7304:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly harakiri
+  mobNotes: Low health ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7305:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly onmitsu
+  mobNotes: >-
+    Line AoE inflicts Bleed
+
+    Low health ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7306:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly moko
+  mobNotes: Cleaves every other auto
+  threat: Easy
+  aggro: Sight
+
+7307:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mokin
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7308:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kiyofusa
+  mobNotes: Weak stack attack
+  threat: Easy
+  aggro: Sight
+
+7309:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly ashigaru
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7310:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shishi
+  mobNotes: Extremely large AoE
+  threat: Caution
+  aggro: Sight
+
+7311:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly onmitsu
+  mobNotes: >-
+    Line AoE inflicts Bleed
+
+    Low health ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7312:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly vanara
+  mobNotes: Frontal cleave without cast or telegraph
+  threat: Caution
+  aggro: Sight
+
+7313:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly dogu
+  mobNotes: Gaze inflicts Otter
+  threat: Caution
+  aggro: Sight
+
+# --------------------------
+# HoH floors 41-49
+# --------------------------
+7314:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly saikoro
+  mobNotes: Casts AoEs unaggroed
+  threat: Caution
+  aggro: Sight
+
+7315:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly ganseki
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+7316:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly dhara
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7317:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly sekizo
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7318:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly sekiban
+  mobNotes: >-
+    Large line AoE
+
+    Eventual ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7319:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly saikoro
+  mobNotes: Casts AoEs unaggroed
+  threat: Caution
+  aggro: Sight
+
+7320:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly iseki
+  mobNotes: 'Purple: double auto'
+  threat: Caution
+  aggro: Sight
+
+7321:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly aka-ishi
+  mobNotes: Large cone AoE
+  threat: Easy
+  aggro: Sight
+
+7322:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly monoiwa
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7323:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly iseki
+  mobNotes: 'Green: Casts AoEs unaggroed'
+  threat: Easy
+  aggro: Sight
+
+7324:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kuro-usagi
+  mobNotes: Very wide line AoE
+  threat: Caution
+  aggro: Sight
+
+7325:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly sekizo
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7326:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mizumimizu
+  mobNotes: Eventual ENRAGE
+  threat: Caution
+  aggro: Sound
+
+# --------------------------
+# HoH floors 51-59
+# --------------------------
+7327:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kamanari
+  mobNotes: Autos inflict stacking vuln up
+  threat: Caution
+  aggro: Sound
+
+7328:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kamakiri
+  mobNotes: Buster inflicts Bleed
+  threat: Caution
+  aggro: Sound
+
+7329:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tokagekiba
+  mobNotes: Buffs own damage
+  threat: Caution
+  aggro: Sight
+
+7330:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kongorei
+  mobNotes: Eventual instant ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7331:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tesso
+  mobNotes: Cone AoE inflicts Bleed
+  threat: Easy
+  aggro: Sight
+
+7332:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly maruishi
+  mobNotes: Exclusively fatal line AoEs
+  threat: Caution
+  aggro: Proximity
+
+7333:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly karakuri
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7334:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shabti
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7335:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly gowan
+  mobNotes: Draw-in attack
+  threat: Easy
+  aggro: Sight
+
+7336:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly rachimonai
+  mobNotes: Instant AoEs on targeted player unaggroed
+  threat: Caution
+  aggro: Sight
+
+7337:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly naga
+  mobNotes: Conal gaze, very quick low health ENRAGE
+  threat: Dangerous
+  aggro: Sight
+
+7338:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tetsu-kyojin
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7339:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly dokyu
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+# --------------------------
+# HoH floors 61-69
+# --------------------------
+7340:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly wakakusa
+  mobNotes: Inflicts stacking Poison that lasts 30s
+  threat: Caution
+  aggro: Proximity
+
+7341:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mannenso
+  mobNotes: Inflicts stacking vuln up
+  threat: Caution
+  aggro: Sight
+
+7342:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly iwamushi
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7343:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly jellyfish
+  mobNotes: Fast alternating line AoEs that inflict Paralysis
+  threat: Caution
+  aggro: Proximity
+
+7344:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly doguzeri
+  mobNotes: Caster, double auto
+  threat: Easy
+  aggro: Sound
+
+7345:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kosodegai
+  mobNotes: Conal AoE inflicts Paralysis
+  threat: Easy
+  aggro: Sight
+
+7346:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shitaibana
+  mobNotes: Cleave and potent Poison
+  threat: Caution
+  aggro: Sight
+
+7347:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hashiri-dokoro
+  mobNotes: Large donut AoE, gaze attack inflicts Fear
+  threat: Caution
+  aggro: Sight
+
+7348:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly penghou
+  mobNotes: Large circular AoE inflicts Bleed
+  threat: Easy
+  aggro: Sight
+
+7349:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly jubokko
+  mobNotes: Buffs own or ally's defense
+  threat: Caution
+  aggro: Sight
+
+7350:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly morbol
+  mobNotes: AoE inflicts numerous debuffs at once
+  threat: Caution
+  aggro: Sight
+
+7351:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly chizakura
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+# --------------------------
+# HoH floors 71-79
+# --------------------------
+7352:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shikubi
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7353:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly ichijama
+  mobNotes: >-
+    Casts large AoE unaggroed
+
+    Extremely large circular AoE
+  threat: Caution
+  aggro: Proximity
+
+7354:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly noyagi
+  mobNotes: Untelegraphed knockback on rear
+  threat: Easy
+  aggro: Sight
+
+7355:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly okami
+  mobNotes: Double auto inflicts Bleed
+  threat: Caution
+  aggro: Sight
+
+7356:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly yuki-tokage
+  mobNotes: Casts AoEs unaggroed that inflict Deep Freeze
+  threat: Caution
+  aggro: Sight
+
+7357:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mammoth
+  mobNotes: >-
+    Casts roomwide AoEs unaggroed
+
+    Large conal draw-in attack followed by heavy damage
+  threat: Dangerous
+  aggro: Sight
+
+7358:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tofu
+  mobNotes: Buffs own damage
+  threat: Caution
+  aggro: Sight
+
+7359:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly jujishi
+  mobNotes: Haste, eventual ENRAGE
+  threat: Dangerous
+  aggro: Proximity
+
+7360:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly yuki-otoko
+  mobNotes: Very large AoEs
+  threat: Caution
+  aggro: Sight
+
+7361:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly yak
+  mobNotes: Draw-in attack, extremely large AoE, eventual ENRAGE
+  threat: Caution
+  aggro: Sight
+
+7362:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hyoga
+  mobNotes: Extremely large conal AoE, gaze inflicts Fear
+  threat: Caution
+  aggro: Sight
+
+7363:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hyozan
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+7364:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shiro-jishi
+  mobNotes: Double auto and very large AoE
+  threat: Dangerous
+  aggro: Sight
+
+# --------------------------
+# HoH floors 81-89
+# --------------------------
+7365:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mukai-inu
+  mobNotes: >-
+    Ram's Voice - get out
+
+    Dragon's Voice - get in
+
+    Telegraphed cleaves
+  threat: Dangerous
+  aggro: Proximity
+
+7366:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly rowan
+  mobNotes: >-
+    Buffs own damage unaggroed
+
+    Large AoE unaggroed that inflicts vuln up and stacks
+  threat: Dangerous
+  aggro: Sight
+
+7367:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly Matanga
+  mobNotes: Charges on aggro
+  threat: Easy
+  aggro: Sight
+
+7368:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly Gozu
+  mobNotes: Untelegraphed conal AoE on random player, gaze attack
+  threat: Caution
+  aggro: Sight
+
+7369:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly ryukotsu
+  mobNotes: Casts AoEs unaggroed
+  threat: Easy
+  aggro: Sight
+
+7370:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly ryujin
+  mobNotes: Double autos, very strong rear cleave if behind
+  threat: Dangerous
+  aggro: Sight
+
+7371:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly hitotsume
+  mobNotes: Alternates line and circle AoEs untelegraphed
+  threat: Caution
+  aggro: Sight
+
+7372:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly enko
+  mobNotes: Buffs own damage and double autos
+  threat: Dangerous
+  aggro: Sight
+
+7373:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly araragi
+  mobNotes: Draw-in attack, tons of bleed, and a stacking poison
+  threat: Caution
+  aggro: Sight
+
+7374:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly koki
+  mobNotes: Large donut AoE
+  threat: Easy
+  aggro: Proximity
+
+7375:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly Garula
+  mobNotes: Cone AoE, circle AoE, partywide damage
+  threat: Dangerous
+  aggro: Sight
+
+7376:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shinzei
+  mobNotes: Charges, buffs own damage, double autos, electricity Bleed
+  threat: Dangerous
+  aggro: Sight
+
+7377:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly rakshasa
+  mobNotes: Charges, buffs own damage, untelegraphed buster "Ripper Claw"
+  threat: Caution
+  aggro: Sight
+
+# --------------------------
+# HoH floors 91-99
+# --------------------------
+7378:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly nuppeppo
+  mobNotes: >-
+    WAR: Triple knockback with heavy damage
+
+    Buffs own attack
+
+    Extremely high damage cleave with knockback
+  threat: Vicious
+  aggro: Sight
+
+7379:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly nuppeppo
+  mobNotes: 'MNK: Haste buff, short invuln'
+  threat: Dangerous
+  aggro: Sight
+
+7380:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly nuppeppo
+  mobNotes: >-
+    WHM: double autos
+
+    "Stone" can be line of sighted
+  threat: Easy
+  aggro: Sight
+
+7381:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly mifune
+  mobNotes: >-
+    Cleave
+
+    Large line AoE that can be line of sighted
+  threat: Dangerous
+  aggro: Proximity
+
+7382:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly jaki
+  mobNotes: '"Charybdis" AoE that leaves tornadoes on random players'
+  threat: Dangerous
+  aggro: Sight
+
+7383:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tokage-musha
+  mobNotes: ''
+  threat: Caution
+  aggro: Sight
+
+7384:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kyozo
+  mobNotes: Casts targeted AoEs unaggroed, buffs own defense
+  threat: Easy
+  aggro: Sight
+
+7385:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kuro-kishi
+  mobNotes: Targeted AoEs, cleaves
+  threat: Caution
+  aggro: Proximity
+
+7386:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly shabti
+  mobNotes: Extremely quick line AoE "Death's Door" that instantly kills
+  threat: Easy
+  aggro: Sight
+
+7387:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly zenki
+  mobNotes: Deals heavy damage to random players
+  threat: Caution
+  aggro: Sight
+
+7388:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly Gozu
+  mobNotes: >-
+    Charges
+
+    Untelegraphed line AoE "Swipe"
+
+    Untelegraphed wide circle AoE "Swing"
+  threat: Dangerous
+  aggro: Sight
+
+7389:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly kubinashi
+  mobNotes: Repeatedly cleaves for high damage, lifesteal, buffs own damage, three stacks of damage up casts ENRAGE "Black Nebula"
+  threat: Dangerous
+  aggro: Sight
+
+7390:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly tenma
+  mobNotes: Rapid double autos and untelegraphed line AoE "Quasar"
+  threat: Dangerous
+  aggro: Sight
+
+7391:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly dodo
+  mobNotes: Double autos, cone AoE inflicts Sleep
+  threat: Caution
+  aggro: Sight
+
+7584:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: heavenly jinba
+  mobNotes: >-
+    Permanent stacking damage buff
+
+    Massive enrage on random player"Allagan Meteor"
+
+    Gaze attack
+  threat: Dangerous
+  aggro: Sight
+
+# --------------------------
+# HoH bosses and misc.
+# --------------------------
+7392:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: 
+  name: quivering coffer
+  mobNotes: >-
+    Floors 1-30: Bronze chests only
+
+    High damage autos and instant kill AoE
+
+    "Malice" can be interrupted with silence/stun/knockback/witching/
+
+    interject
+  threat: Caution
+  aggro: Proximity
+
+7393:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: quivering coffer
+  mobNotes: >-
+    Floors 31-60: Silver chests only
+
+    High damage autos and instant kill AoE
+
+    "Malice" can be interrupted with silence/stun/interject
+  threat: Caution
+  aggro: Proximity
+
+7394:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: quivering coffer
+  mobNotes: >-
+    Floors 61+: Gold chests only
+
+    High damage autos and instant kill AoE
+
+    "Malice" can only be interrupted with interject
+
+    CANNOT STUN
+  threat: Caution
+  aggro: Proximity
+
+7478:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Hiruko
+  mobNotes: >-
+    Summons lightning clouds that inflict stacking vuln up when they explode
+
+    Boss does proximity AoE under itself that knocks players into the air
+
+    Get knocked into a cloud to dispel it and avoid vuln
+
+    Half-roomwide AoE
+  threat: Caution
+  aggro: Boss
+
+7480:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Mojabune
+  mobNotes: >-
+    Goes to center of arena and casts knockback to wall (cannot be knockback invulned)
+
+    Follows immediately with a half-roomwide AoE
+  threat: Caution
+  aggro: Boss
+
+7481:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Beccho
+  mobNotes: >-
+    Summons butterflies on edges of arena
+
+    Does gaze mechanic that inflicts Fear
+
+    Butterflies explode untelegraphed
+  threat: Caution
+  aggro: Boss
+
+7483:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Bhima
+  mobNotes: >-
+    Summons clouds on edge of arena
+
+    Does to-wall knockback that ignores knockback invuln (look for safe spot in clouds!)
+
+    Follows immediately with targeted line AoE
+  threat: Caution
+  aggro: Boss
+
+7485:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Gozu
+  mobNotes: >-
+    1) Untelegraphed swipe
+
+    2) Untelegraphed line AoE on random player
+
+    3) Gaze mechanic that inflicts Fear
+
+    4) Summons pulsating bombs over arena and does a proximity AoE
+
+    5) Repeats after bombs explode for the last time
+  threat: Caution
+  aggro: Boss
+
+7487:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Suikazura
+  mobNotes: >-
+    Summons staffs that do various AoEs
+
+    Staffs then do line AoEs targeting players
+
+    Roomwide AoE
+  threat: Caution
+  aggro: Boss
+
+7489:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Kenko
+  mobNotes: >-
+    1) Untelegraphed frontal cleave
+
+    2) Targets random player with "Innerspace" puddle (standing in puddle inflicts Minimum)
+
+    3) Targets random player with "Hound out of Hell"
+
+    4) Targeted player must stand in puddle to dodge "Hound out of Hell" and "Devour" (will instant-kill if not in puddle and give the boss a stack of damage up)
+
+    5) Repeat
+  threat: Caution
+  aggro: Boss
+
+7490:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Kajigakaka
+  mobNotes: >-
+    1) Summons balls of ice
+
+    2) Summons icicle that pierces through room, detonating any ice balls it hits
+
+    3) "Lunar Cry" detonates remaining ice balls
+
+    4) Exploding ice balls inflict Deep Freeze if they hit a player
+
+    5) Boss jumps to random player, instantly killing if player is frozen (light damage otherwise)
+  threat: Caution
+  aggro: Boss
+
+7493:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: 
+  name: Onra
+  mobNotes: >-
+    1) Heavy roomwide damage "Ancient Quaga"
+
+    2) Pulsing rocks appear over arena, causing moderate damage and Heavy debuff if player is hit by one
+
+    3) "Meteor Impact" summons proximity AoE at boss's current location
+
+    4) Line AoE "Aura Cannon"
+
+    5) Targeted circle AoE "Burning Rave"
+
+    6) Point-blank circle AoE "Knuckle Press"
+
+    7) Repeat
+  threat: Caution
+  aggro: Boss
+
+7610:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: korrigan
+  mobNotes: Does not interact, wide stun and immediately dies when attacked
+  threat: Easy
+  aggro: Proximity
+
+# --------------------------
+# PotD
+# --------------------------
+
+# --------------------------
+# PotD 1-10
+# --------------------------
+
+4975:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace deathmouse
+  mobNotes: Casts Haste on itself
+  threat: Easy
+  aggro: Sight
+
+4976:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace antelope
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+4977:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace bat
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+4978:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace coblyn
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+4979:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace hippocerf
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+4980:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace beetle
+  mobNotes: Inflicts Poison
+  threat: Easy
+  aggro: Sight
+
+4981:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace hornet
+  mobNotes: High damage "Final Sting"
+  threat: Caution
+  aggro: Proximity
+
+4982:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: palace yarzon
+  mobNotes: Inflicts vulnerability up
+  threat: Easy
+  aggro: Sound
+
+4983:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace ziz
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+4984:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: lost goblin
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+4985:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace dung beetle
+  mobNotes: Mini buster "Rhino Charge"
+  threat: Easy
+  aggro: Proximity
+
+4986:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace deathgaze
+  mobNotes: >-
+    1) "Whipcrack" - light tankbuster
+
+    2) "Stormwind" - conal AOE
+
+    3) "Bombination" - circular AOE on boss inflicts Slow
+
+    4) "Lumisphere" - targeted AOE on random player
+
+    5) "Aeroblast" - roomwide AOE inflicts Bleed
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 11-20
+# --------------------------
+4987:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: living whelk
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+4988:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace uragnite
+  mobNotes: Inflicts poison
+  threat: Easy
+  aggro: Sight
+
+4989:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace toad
+  mobNotes: '"Sticky Tongue" does not stun if facing towards'
+  threat: Easy
+  aggro: Sight
+
+4990:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace slime
+  mobNotes: Eventual ENRAGE
+  threat: Caution
+  aggro: Sound
+
+4991:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace ninki nanka
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+4992:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace nanka
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+4993:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace ochu
+  mobNotes: Area of effect Slow
+  threat: Easy
+  aggro: Proximity
+
+4994:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace seedling
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+4995:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace morbol
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+4996:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace pudding
+  mobNotes: Buffs own damage
+  threat: Easy
+  aggro: Proximity
+
+4997:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: palace cobra
+  mobNotes: Gaze attack inflicts Petrify, "Devour" instantly kills players inflicted with Toad
+  threat: Dangerous
+  aggro: Sight
+
+4998:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace biloko
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+4999:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Spurge
+  mobNotes: >-
+    1) "Bloody Caress" - high damage cleave
+
+    2) Two telegraphed AOEs and a roomwide AOE
+
+    3) Summons two hornets that must be killed before they "Final Sting"
+
+    4) "Rotten Stench" - high damage line AOE
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 21-30
+# --------------------------
+5000:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace puk
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5001:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace drake
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5002:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace adamantoise
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5003:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: palace peiste
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5004:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: palace wivre
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5005:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace spriggan
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5006:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace centaur
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5007:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace effigy
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5008:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace marolith
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5009:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace dullahan
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5010:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: palace minotaur
+  mobNotes: Untelegraphed AOE does moderate damage and knockback
+  threat: Caution
+  aggro: Sight
+
+5011:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace skatene
+  mobNotes: '"Chirp" inflicts Sleep for 15s'
+  threat: Caution
+  aggro: Sound
+
+5012:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Ningishzida
+  mobNotes: >-
+    1) Spread out fire and ice AOEs and don't drop them in center because: 
+
+    2) Get inside boss's hitbox for "Fear Itself" - will inflict high damage and Terror if not avoided
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 31-40
+# --------------------------
+5013:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare bogy
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5014:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare hecteyes
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5015:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: nightmare ogre
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5016:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: true
+  name: nightmare mummy
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5017:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare eye
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5018:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: nightmare dahak
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5019:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare monk
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5020:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: nightmare troubadour
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5021:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: nightmare haagenti
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5022:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare succubus
+  mobNotes: '"Dark Mist" inflicts Terror'
+  threat: Caution
+  aggro: Sight
+
+5023:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare catoblepas
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5024:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: true
+  name: nightmare gourmand
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5025:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: true
+  name: Ixtab
+  mobNotes: >-
+    1) Summons four lingering AoEs
+
+    2) Summons two adds -- they must be killed before boss casts "Scream", adds will target player with high damage AoEs if not dead
+  threat: Easy
+  aggro: Boss
+
+# --------------------------
+# PotD 41-50
+# --------------------------
+5026:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare gnat
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5027:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare demon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5028:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare gargoyle
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5029:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare knight
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5030:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: nightmare bhoot
+  mobNotes: Inflicts Paralysis
+  threat: Caution
+  aggro: Sound
+
+5031:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare hellhound
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5032:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare persona
+  mobNotes: Inflicts Paralysis
+  threat: Caution
+  aggro: Proximity
+
+5033:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare bloodguard
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5034:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: nightmare dragon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5035:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare manticore
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5036:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: nightmare wraith
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5037:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: true
+  name: nightmare gravekeeper
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5038:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Edda Blackbosom
+  mobNotes: >-
+    FOLLOW MECHANICS -- failed mechanics power up an unavoidable room AoE
+
+    Boss will occasionally inflict Disease which slows
+
+    1) "In Health" -- can be roomwide AoE with safe spot on boss or targeted AoE under boss 
+
+    2) "Cold Feet" -- Gaze
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD special NPCs and misc.
+# --------------------------
+5039:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: gargoyle steward
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5040:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: demon butler
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5041:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: pygmaioi
+  mobNotes: Does not interact, wide stun and immediately dies when attacked
+  threat: Easy
+  aggro: Proximity
+
+5046:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: Duskwight lancer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5047:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: sword-swinging adventurer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5048:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: staff-spinning adventurer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5049:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: spear-shaking adventurer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5050:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: Ishgardian pikeman
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5051:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: roughspun ruffian
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5052:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: frenzied freebooter
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5053:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: Immortal Flame
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5283:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: mortifying magnate
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5284:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: corrupted centurion
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5285:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: gangrenous gigant
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5286:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: half-cracked captain
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5287:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: sunken captain
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5288:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: flyblown praefectus
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5289:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: jaundiced tribunus
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5290:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: moldering merchant
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5291:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: blackening marketeer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5292:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: bloated conjurer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5293:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: bloated archer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5294:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: bloated pugilist
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5295:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: emaciated engineer
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5296:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: putrid plutocrat
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5297:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: insentient inquisitor
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+5298:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: 
+  name: necrose knight
+  mobNotes: Immune to Pomander of Witching
+  threat: Caution
+  aggro: Sight
+
+# --------------------------
+# PotD 51-60
+# --------------------------
+5299:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace deepeye
+  mobNotes: Gaze inflicts Paralysis
+  threat: Easy
+  aggro: Sight
+
+5300:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace gremlin
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5301:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: true
+  name: palace imp
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5302:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: palace Anubys
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5303:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace soulflayer
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5304:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace taurus
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5305:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace arch demon
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5306:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace vodoriga
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5307:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace idol
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5308:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace pot
+  mobNotes: Gaze inflicts Blind and does high damage
+  threat: Easy
+  aggro: Proximity
+
+5309:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: the Black Rider
+  mobNotes: >-
+    Drops large puddle AoEs that inflict Bleed if stood in
+
+    "Valfodr" -- targeted unavoidable line AoE centered on player that causes strong knockback, avoid AoEs surrounding outer edge
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 61-70
+# --------------------------
+5311:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace raptor
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5312:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace tyrannosaur
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5313:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace diplocaulus
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5314:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace triceratops
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5315:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace croc
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5316:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: palace mylodon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5317:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace elbst
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5318:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace sarcosuchus
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5319:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace blade
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5320:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace pteranodon
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5321:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Yaquaru
+  mobNotes: >-
+    "Douse" -- lingering ground AoE that inflicts Bleed if stood in and buffs boss with Haste if left in it
+
+    Occasionally casts targeted ground AoEs
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 71-80
+# --------------------------
+5322:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace bandersnatch
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5323:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace aurochs
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5324:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: bird of the palace
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5325:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: palace cyclops
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5326:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace sasquatch
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5327:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: palace bear
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5328:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace coeurl
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5329:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace dhalmel
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5330:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace lion
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5331:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace anzu
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5332:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace wolf
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5333:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Gudanna
+  mobNotes: >-
+    "Charybdis" -- lingering ground tornadoes that cause high damage if sucked into
+
+    Boss will run to edge of arena and cast "Trounce" - wide conal AoE
+
+    At 17%% casts "Ecliptic Meteor" - HIGH DAMAGE roomwide with long cast that deals 80%% of total health damage
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 81-90
+# --------------------------
+5334:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace bomb
+  mobNotes: Casts wide "Self Destruct" if not killed in time
+  threat: Caution
+  aggro: Sight
+
+5335:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace wamouracampa
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5336:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace vinegaroon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5337:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: flame dragon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5338:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace worm
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5339:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace claw
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5340:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: palace eruca
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5341:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace gallimimus
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5342:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: palace hapalit
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5343:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace wamoura
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5344:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace chimera
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5345:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: the Godmother
+  mobNotes: >-
+    Casts large AoEs
+
+    Summons "Grey Bomb" - must be killed before it does high roomwide damage
+
+    Begins long cast "Massive Burst" and summons "Giddy Bomb" that must be knocked towards the boss to interrupt cast
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 91-100
+# --------------------------
+5346:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: true
+    isUndead: true
+  name: palace mummy
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5347:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: true
+  name: palace corse
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5348:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: true
+    canSleep: 
+    canBind: false
+    isUndead: false
+  name: dark dragon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5349:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace knight
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5350:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace roselet
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5351:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: palace swarm
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5352:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: true
+  name: palace gourmand
+  mobNotes: ''
+  threat: Caution
+  aggro: Proximity
+
+5353:
+  vuln:
+    canStun: 
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: true
+  name: palace iron corse
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5354:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: true
+  name: palace wraith
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5355:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: true
+  name: palace gravekeeper
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5356:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Nybeth Obdilord
+  mobNotes: Summons adds and does large targeted AoEs -- adds are vulnerable to Pomander of Resolution's attacks
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 101-110
+# --------------------------
+5360:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace squirrel
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5361:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace stag
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5362:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace gaelicat
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5363:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace doblyn
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5364:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: true
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace hippogryph
+  mobNotes: >-
+    Floors 101-110: 
+
+    Nothing notable (ignore threat level)
+
+    Floors 191-200: 
+
+    Double autos
+  threat: Caution
+  aggro: Proximity
+
+5365:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace ladybug
+  mobNotes: Inflicts Poison
+  threat: Easy
+  aggro: Sight
+
+5366:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace hornet
+  mobNotes: High damage "Final Sting"
+  threat: Caution
+  aggro: Proximity
+
+5367:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace yarzon
+  mobNotes: Inflicts vulnerability up
+  threat: Easy
+  aggro: Sound
+
+5368:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace ziz
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5369:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: goblin adventurer
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5370:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace dung beetle
+  mobNotes: Mini buster "Rhino Charge"
+  threat: Easy
+  aggro: Sight
+
+5371:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Alicanto
+  mobNotes: >-
+    1) "Whipcrack" - light tankbuster
+
+    2) "Stormwind" - conal AOE
+
+    3) "Bombination" - circular AOE on boss inflicts Slow
+
+    4) "Lumisphere" - targeted AOE on random player
+
+    5) "Aeroblast" - roomwide AOE inflicts Bleed
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 111-120
+# --------------------------
+5372:
+  vuln:
+    canStun: 
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: true
+    isUndead: false
+  name: deep palace leech
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5373:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: false
+    isUndead: false
+  name: deep palace bifericeras
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5374:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace gigantoad
+  mobNotes: '"Sticky Tongue" draw-in and stun attack if not facing, followed by "Labored Leap" AoE centered on enemy'
+  threat: Caution
+  aggro: Sight
+
+5375:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace slime
+  mobNotes: Eventual ENRAGE
+  threat: Caution
+  aggro: Sound
+
+5376:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace nanka
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5377:
+  vuln:
+    canStun: 
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace salamander
+  mobNotes: Casts invuln buff on itself
+  threat: Easy
+  aggro: Sound
+
+5378:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace ochu
+  mobNotes: Area of effect Slow
+  threat: Easy
+  aggro: Proximity
+
+5379:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace seedling
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5380:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: false
+    isUndead: false
+  name: deep palace morbol
+  mobNotes: Will inflict Sleep before casting "Bad Breath"
+  threat: Caution
+  aggro: Proximity
+
+5381:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: true
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace pudding
+  mobNotes: Buffs own damage
+  threat: Easy
+  aggro: Proximity
+
+5382:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace cobra
+  mobNotes: >-
+    Gaze attack inflicts Petrify, "Regorge" infllicts Poison
+
+    Will one-shot kill anyone inflicted with Toad
+  threat: Dangerous
+  aggro: Sight
+
+5383:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace biloko
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5384:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Kirtimukha
+  mobNotes: >-
+    1) "Bloody Caress" - high damage cleave
+
+    2) Two telegraphed AOEs and a roomwide AOE
+
+    3) Summons two hornets that must be killed before they "Final Sting"
+
+    4) "Rotten Stench" - high damage line AOE
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 121-130
+# --------------------------
+5385:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace pteroc
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5386:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace biast
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5387:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace adamantoise
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5388:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace basilisk
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5389:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace wivre
+  mobNotes: Double autos
+  threat: Caution
+  aggro: Proximity
+
+5390:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace spriggan
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5391:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace centaur
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5392:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace effigy
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5393:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace urolith
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5394:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace dullahan
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5395:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace minotaur
+  mobNotes: '"11-Tonze Swing" - point-blank untelegraphed AoE that does high damage and knockback'
+  threat: Caution
+  aggro: Sight
+
+5396:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace skatene
+  mobNotes: '"Chirp" inflicts Sleep for 15s'
+  threat: Caution
+  aggro: Sound
+
+5397:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Alfard
+  mobNotes: >-
+    1) Spread out fire and ice AOEs and don't drop them in center because: 
+
+    2) Get inside boss's hitbox for fast cast "Fear Itself" - will inflict high damage and Terror if not avoided
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 131-140
+# --------------------------
+5398:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace soul
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5399:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace hecteyes
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5400:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace ogre
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5401:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: true
+  name: deep palace mummy
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5402:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace ahriman
+  mobNotes: Untelegraphed conal AoE "Level 5 Petrify" inflicts Petrify
+  threat: Caution
+  aggro: Sight
+
+5403:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace dahak
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5404:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace monk
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5405:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: false
+  name: deep palace troubador
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5406:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace taurus
+  mobNotes: Casts targeted AoE that inflicts Bleed
+  threat: Easy
+  aggro: Sight
+
+5407:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace guard
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5408:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: false
+    canBind: 
+    isUndead: false
+  name: deep palace catoblepas
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5409:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: 
+    isUndead: true
+  name: deep palace gourmand
+  mobNotes: >-
+    Floors 131-140: 
+
+    Nothing notable (ignore threat level)
+
+    Floors 191-200: 
+
+    Double autos
+  threat: Caution
+  aggro: Proximity
+
+5410:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: true
+  name: Ah Puch
+  mobNotes: >-
+    1) Summons four lingering AoEs
+
+    2) Summons two adds -- they must be killed before boss casts "Scream", adds will target player with high damage AoEs if not dead
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 141-150
+# --------------------------
+5411:
+  vuln:
+    canStun: 
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace follower
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5412:
+  vuln:
+    canStun: 
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace ked
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5413:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace demon
+  mobNotes: '"Charybdis" - semi-enrage that drops party health to 1%%'
+  threat: Caution
+  aggro: Sight
+
+5414:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace gargoyle
+  mobNotes: Very high damage, inflicts Poison
+  threat: Dangerous
+  aggro: Sight
+
+5415:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace knight
+  mobNotes: >-
+    Floors 141-150: 
+
+    Nothing notable (ignore threat level)
+
+    Floors 191-200: 
+
+    Casts large donut AoE "Death Spiral" that deals heavy damage
+
+    Has soft enrage of a strong damage buff
+  threat: Dangerous
+  aggro: Proximity
+
+5416:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: false
+    isUndead: false
+  name: deep palace bhoot
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5417:
+  vuln:
+    canStun: true
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace hellhound
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5418:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace persona
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5419:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace succubus
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5420:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: true
+  name: onyx dragon
+  mobNotes: Casts Gaze "Evil Eye"
+  threat: Easy
+  aggro: Proximity
+
+5421:
+  vuln:
+    canStun: 
+    canHeavy: true
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: false
+  name: deep palace manticore
+  mobNotes: Buffs own damage, untelegraphed high damage "Ripper Claw" - can be avoided by walking behind
+  threat: Easy
+  aggro: Sight
+
+5422:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: true
+    canSleep: 
+    canBind: false
+    isUndead: true
+  name: deep palace wraith
+  mobNotes: High health and very large AoE "Scream"
+  threat: Caution
+  aggro: Proximity
+
+5423:
+  vuln:
+    canStun: false
+    canHeavy: 
+    canSlow: 
+    canSleep: 
+    canBind: 
+    isUndead: true
+  name: deep palace keeper
+  mobNotes: Very high damage for the floors it appears on
+  threat: Dangerous
+  aggro: Sound
+
+5424:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Tisiphone
+  mobNotes: >-
+    Summons adds
+
+    "Fanatic Zombie" will grab player and root in place until killed
+
+    "Fanatic Succubus" will heal boss if it reaches it
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 151-160
+# --------------------------
+5429:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace deepeye
+  mobNotes: >-
+    Double autos
+
+    Gaze inflicts Paralysis
+  threat: Caution
+  aggro: Sight
+
+5430:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: true
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace gremlin
+  mobNotes: Inflicts Vuln Up debuff
+  threat: Easy
+  aggro: Sight
+
+5431:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace devilet
+  mobNotes: >-
+    "Ice Spikes" reflects damage
+
+    "Void Blizzard" inflicts Slow
+  threat: Easy
+  aggro: Sight
+
+5432:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace shabti
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5433:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace soulflayer
+  mobNotes: Double autos that lifesteal
+  threat: Easy
+  aggro: Sight
+
+5434:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: true
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace arch demon
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5435:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace abaia
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5436:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace marolith
+  mobNotes: Double autos
+  threat: Easy
+  aggro: Proximity
+
+5437:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace pot
+  mobNotes: >-
+    Double autos
+
+    Gaze inflicts heavy damage and Blind
+  threat: Caution
+  aggro: Proximity
+
+5438:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Todesritter
+  mobNotes: >-
+    Drops lingering AoEs that cause heavy Bleed if stood in
+
+    "Valfodr" -- targeted unavoidable line AoE centered on player that causes strong knockback, avoid AoEs surrounding outer edge
+  threat: Caution
+  aggro: Boss
+
+# --------------------------
+# PotD 161-170
+# --------------------------
+5439:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace lindwurm
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5440:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: deep palace archaeosaur
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5441:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace diplocaulus
+  mobNotes: ''
+  threat: Caution
+  aggro: Proximity
+
+5442:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: deep palace triceratops
+  mobNotes: Double autos
+  threat: Caution
+  aggro: Proximity
+
+5443:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace croc
+  mobNotes: Double autos
+  threat: Caution
+  aggro: Sight
+
+5444:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace mylodon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5445:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: true
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace tursus
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5446:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace sarcosuchus
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5447:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace vinegaroon
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5448:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace pteranodon
+  mobNotes: ''
+  threat: Caution
+  aggro: Proximity
+
+5449:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Yulunggu
+  mobNotes: "\"Douse\" -- lingering ground AoE that inflicts Bleed if stood in and buffs boss with Haste and Damage Up if left in it\nOccasionally inflicts Heavy and casts targeted ground AoEs "
+  threat: Easy
+  aggro: Boss
+
+# --------------------------
+# PotD 171-180
+# --------------------------
+5450:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace bandersnatch
+  mobNotes: Double autos
+  threat: Caution
+  aggro: Sight
+
+5451:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: true
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: deep palace wisent
+  mobNotes: Has semi-enrage around 30s in combat
+  threat: Caution
+  aggro: Sight
+
+5452:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: true
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: bird of the deep palace
+  mobNotes: >-
+    "Revelation" inflicts Confusion
+
+    "Tropical Wind" gives enemy a large Haste and damage buff
+  threat: Easy
+  aggro: Proximity
+
+5453:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: deep palace snowclops
+  mobNotes: >-
+    "Glower" - untelegraphed line AoE
+
+    "100-Tonze Swing" - untelegraphed point-blank AoE
+  threat: Caution
+  aggro: Sight
+
+5454:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: false
+    isUndead: false
+  name: deep palace sasquatch
+  mobNotes: Buffs own damage and inflicts Physical Vuln Up with AoE damage out of combat
+  threat: Caution
+  aggro: Proximity
+
+5455:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace bear
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5456:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace black coeurl
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5457:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace dhalmel
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5458:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace lion
+  mobNotes: Double autos
+  threat: Caution
+  aggro: Sight
+
+5459:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: true
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace anzu
+  mobNotes: >-
+    Cleave inflicts Bleed
+
+    "Flying Frenzy" targets a player and does heavy damage, Vuln Down, and stuns
+  threat: Vicious
+  aggro: Sight
+
+5460:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace wolf
+  mobNotes: Cleave does heavy damage and inflicts potent Bleed
+  threat: Dangerous
+  aggro: Sight
+
+5461:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: Dendainsonne
+  mobNotes: >-
+    "Charybdis" -- lingering ground tornadoes cast twice in a row that cause high damage if sucked into
+
+    Boss will run to top or bottom of arena and cast "Trounce" - wide conal AoE
+
+    At 15%% casts FAST CAST "Ecliptic Meteor" - HIGH DAMAGE roomwide with long cast that deals 80%% of total health damage every 9 seconds
+  threat: Dangerous
+  aggro: Boss
+
+# --------------------------
+# PotD 181-190
+# --------------------------
+5462:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace grenade
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5463:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: true
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace wamouracampa
+  mobNotes: Double autos
+  threat: Caution
+  aggro: Sound
+
+5464:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: flood dragon
+  mobNotes: Instant AoE that inflicts heavy Bleed
+  threat: Vicious
+  aggro: Sight
+
+5465:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace worm
+  mobNotes: >-
+    Instant AoE on pull, double autos
+
+    At 30 seconds will cast semi-enrage
+  threat: Dangerous
+  aggro: Sound
+
+5466:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace claw
+  mobNotes: >-
+    Sucks in player and does heavy damage
+
+    "Tail Screw" does damage and inflicts Slow
+  threat: Caution
+  aggro: Sight
+
+5467:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace crawler
+  mobNotes: >-
+    Instant AoE burst does heavy damage and inflicts Slow
+
+    Instant cone inflicts Poison
+  threat: Dangerous
+  aggro: Sound
+
+5468:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace vindthurs
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5469:
+  vuln:
+    canStun: true
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: true
+    isUndead: false
+  name: deep palace wamoura
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5470:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: true
+    canBind: true
+    isUndead: false
+  name: deep palace garm
+  mobNotes: >-
+    If familiar with chimera mechanics can be engaged
+
+    "The Dragon's Voice" - be inside hitbox
+
+    "The Ram's Voice" - be outside of melee range
+  threat: Vicious
+  aggro: Proximity
+
+5471:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: false
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: the Godfather
+  mobNotes: >-
+    Kill blue bomb when it appears
+
+    Push red bomb into boss during "Massive Burst" cast, will wipe party if not stunned
+
+    Boss has cleave that does heavy damage
+  threat: Dangerous
+  aggro: Boss
+
+# --------------------------
+# PotD 191-200
+# --------------------------
+5472:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace trap
+  mobNotes: ''
+  threat: Easy
+  aggro: Sound
+
+5473:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace fachan
+  mobNotes: Casts untelegraphed cone "Level 5 Death"
+  threat: Dangerous
+  aggro: Sight
+
+5474:
+  vuln:
+    canStun: false
+    canHeavy: true
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: true
+  name: deep palace bicephalus
+  mobNotes: ''
+  threat: Easy
+  aggro: Proximity
+
+5475:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: true
+  name: deep palace iron corse
+  mobNotes: Double auto
+  threat: Caution
+  aggro: Proximity
+
+# --------------------------
+# PotD misc.
+# --------------------------
+5479:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: palace sprite
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+5480:
+  vuln:
+    canStun: true
+    canHeavy: false
+    canSlow: 
+    canSleep: false
+    canBind: false
+    isUndead: false
+  name: deep palace sprite
+  mobNotes: ''
+  threat: Easy
+  aggro: Sight
+
+2566:
+  vuln:
+    canStun: false
+    canHeavy: false
+    canSlow: 
+    canSleep: 
+    canBind: false
+    isUndead: 
+  name: mimic
+  mobNotes: >-
+    High damage autos and instant kill AoE
+
+    "Infatuation" can only be interrupted with interject
+  threat: Caution
+  aggro: Proximity
+

@@ -1,12 +1,16 @@
-﻿using ImGuiNET;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using System.Numerics;
+using System.Text;
+using System.Threading.Tasks;
+using ImGuiNET;
 
-namespace DeepDungeonDex
+namespace DeepDungeonDex.UI
 {
     public class ConfigUI
     {
-
         public bool IsVisible { get; set; }
         private float opacity;
         private bool isClickthrough;
@@ -53,10 +57,6 @@ namespace DeepDungeonDex
                 config.Save();
             }
             ImGui.SameLine();
-            var c = ImGui.GetCursorPos();
-            ImGui.SetCursorPosX(ImGui.GetWindowContentRegionWidth() - ImGui.CalcTextSize("<3    Sponsor on GitHub").X);
-            ImGui.SmallButton("<3");
-            ImGui.SetCursorPos(c);
             if (ImGui.IsItemHovered())
             {
                 ImGui.BeginTooltip();
@@ -69,17 +69,6 @@ namespace DeepDungeonDex
             ImGui.PushStyleColor(ImGuiCol.Button, 0xFF5E5BFF);
             ImGui.PushStyleColor(ImGuiCol.ButtonActive, 0xFF5E5BAA);
             ImGui.PushStyleColor(ImGuiCol.ButtonHovered, 0xFF5E5BDD);
-            c = ImGui.GetCursorPos();
-            ImGui.SetCursorPosX(ImGui.GetWindowContentRegionWidth() - ImGui.CalcTextSize("Sponsor on GitHub").X);
-            if (ImGui.SmallButton("Sponsor on GitHub"))
-            {
-                Process.Start(new ProcessStartInfo()
-                {
-                    FileName = "https://github.com/sponsors/Strati",
-                    UseShellExecute = true
-                });
-            }
-            ImGui.SetCursorPos(c);
             ImGui.PopStyleColor(3);
             ImGui.End();
         }

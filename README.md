@@ -1,7 +1,3 @@
-# IMPORTANT NOTICE
-This repo is no longer being maintained at this location.
-[New location](https://github.com/wolfcomp/DeepDungeonDex)
-
 # DeepDungeonDex
 
 A plugin for [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher) that displays live data for targeted mobs in Final Fantasy XIV's Deep Dungeons.
