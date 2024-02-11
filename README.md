@@ -1,6 +1,6 @@
 # IMPORTANT NOTICE
 This repo is no longer being maintained at this location.
-[New location](https://github.com/wolfcomp/DeepDungeonDex)
+[New location](https://github.com/NotNite/OfDungeonsDeep)
 
 # DeepDungeonDex
 
